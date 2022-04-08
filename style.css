@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    width: 100%;
+    background-image: url("media/erik-mclean-9y1cTVKe1IY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color:#b8ad4f;
+
+}
+
+.navbar li{
+    display:inline;
+    padding: 90px 90px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+
+
+}
+
+.navbar li a{
+    font-weight: bold;
+    font-size:30px;
+    font-style: italic;
+    color:#ffff;
+}
+
+.content{
+    width:100%;
+    top:200px;
+    position: absolute;
+}
+
+.left-side{
+    float:left;
+    color: #ffff;
+}
+
+.right-side {
+    margin-left: 700px;
+    color: #ffff;
+    align-items: center;
+
+}
+
+.right-side p{
+    font-size:20px;
+}
+
+.right-side img{
+    border-radius: 60%;
+    margin-left: 33%;
+    margin-top: -5%;
+}
+
+ .center-imge img{
+   margin-right: 100px;
+}
